@@ -16,9 +16,9 @@
         ?>
         <h3>Edad:</h3>
         <?php
-            echo "26 a&ntildeos" //aquí NO se usa el punto y coma final            
+            echo "26 años" //aquí NO se usa el punto y coma final            
         ?>
-        <h3>Tel&eacutefono:</h3>
+        <h3>Telefono:</h3>
         <?php
             echo "+57 (1) 323 12 00" //aquí NO se usa el punto y coma final            
         ?>        
