@@ -30,6 +30,9 @@
 	    <?php
 	    echo "Estudiante de Ingenieria de software y analisis y desarrollo de software"
 	    ?>
-        
+        <h3>Informacion personal</h3>
+	    <?php
+	    echo "Estudiante de Ingenieria de software y analisis y desarrollo de software"
+	    ?>
     </body>
 </html>
