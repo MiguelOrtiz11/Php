@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Unidad 2 - Ejemplo 4</title>
+        <title>Practica PHP</title>
         <meta http-equiv="Content-Type" 
               content="text/html; charset=ISO-8859-1" />
     </head>
@@ -16,11 +16,11 @@
         ?>
         <h3>Edad:</h3>
         <?php
-            echo "26 años" //aquí NO se usa el punto y coma final            
+            echo "26 años"; //aquí NO se usa el punto y coma final            
         ?>
         <h3>Telefono:</h3>
         <?php
-            echo "+57 (1) 323 12 00" //aquí NO se usa el punto y coma final            
+            echo "+57 (1) 323 12 00"; //aquí NO se usa el punto y coma final            
         ?>      
         <h3>Practica:</h3>
         <?php
