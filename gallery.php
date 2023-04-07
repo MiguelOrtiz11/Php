@@ -1,16 +1,10 @@
 <?php
-$dir = "images";
-$extensions = array("jpg", "jpeg", "png", "gif");
+// Lista de URLs de las imágenes externas
+$image_urls = [
+  "https://cdn.pixabay.com/photo/2023/03/28/19/54/mountains-7884039_1280.jpg",
+  "https://example.com/image2.jpg",
+  "https://example.com/image3.jpg",
+  "https://example.com/image4.jpg"
+];
 
-if (is_dir($dir)) {
-    if ($dh = opendir($dir)) {
-        while (($file = readdir($dh)) !== false) {
-            $ext = strtolower(pathinfo($file, PATHINFO_EXTENSION));
-            if (in_array($ext, $extensions)) {
-                echo "<img src='$dir/$file' alt='$file' width='300'>";
-            }
-        }
-        closedir($dh);
-    }
-}
-?>
+
